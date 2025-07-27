@@ -187,7 +187,7 @@ class PathfindingVisualizer {
 
 // --- CONFIGURATION ---
 const config = {
-    name: "Charukesh G.",
+    name: "Charukesh G.R",
     title: "Full Stack Developer | Aspiring Cloud Engineer",
     socials: {
         github: "https://github.com/charuhere",
@@ -218,9 +218,9 @@ const config = {
 ]
 ,
     projects: [
-        { title: "Waste Classification Model", description: "Built a real-time waste classification model using SSD MobileNet V2 with 92% accuracy on a custom dataset. Optimized training with CUDA/cuDNN for 3x faster performance.", image: "https://placehold.co/400x250/3f3f46/f4f4f5?text=Project+1", stack: ["TensorFlow", "OpenCV", "Python"], links: { github: "https://github.com/Nayeem-03/WasteClassification", live: "#" } },
-        { title: "CodeHint Assistant", description: "AI-powered Chrome Extension used by 100+ users to inject hints directly into LeetCode problem pages, featuring a secure Node.js backend with the Gemini API.", image: "https://placehold.co/400x250/3f3f46/f4f4f5?text=Project+2", stack: ["JavaScript", "Node.js", "Gemini API"], links: { github: "https://github.com/charuhere/ChromeExtension", live: "#" } },
-        { title: "AquaLearn Mobile App", description: "A React Native mobile app for water hygiene awareness, featuring interactive quizzes and contextual chatbot support. Led frontend development in a 4-member team.", image: "https://placehold.co/400x250/3f3f46/f4f4f5?text=Project+3", stack: ["React Native", "Expo.js", "Gemini API"], links: { github: "#", live: "#" } }
+        { title: "Waste Classification Model", description: "Built a real-time waste classification model using SSD MobileNet V2 with 92% accuracy on a custom dataset. Optimized training with CUDA/cuDNN for 3x faster performance.", image: "assets/AIwasteclassifier.png", stack: ["TensorFlow", "OpenCV", "Python"], links: { github: "https://github.com/Nayeem-03/WasteClassification", live: "#" } },
+        { title: "CodeHint Assistant", description: "AI-powered Chrome Extension used by 100+ users to inject hints directly into LeetCode problem pages, featuring a secure Node.js backend with the Gemini API.", image: "assets/codehint.png", stack: ["JavaScript", "Node.js", "Gemini API"], links: { github: "https://github.com/charuhere/ChromeExtension", live: "#" } },
+        { title: "AquaLearn Mobile App", description: "A React Native mobile app for water hygiene awareness, featuring interactive quizzes and contextual chatbot support. Led frontend development in a 4-member team.", image: "assets/aqualearn.png", stack: ["React Native", "Expo.js", "Gemini API"], links: { github: "#", live: "#" } }
     ],
     resume: {
         file: "assets/Charu_s_Resume.pdf",
