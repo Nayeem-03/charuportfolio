@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="html-title">Charu's Portfolio</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="pathfinding-canvas"></canvas>
+
+    <header class="header">
+        <a href="#" class="logo" id="logo-name"></a>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-controls">
+            <button type="button" class="theme-toggle" aria-label="Toggle theme">
+                <i class="fa-solid fa-moon" id="theme-icon"></i>
+            </button>
+            <div class="palette-container">
+                <button type="button" class="palette-toggle" aria-label="Choose color palette">
+                    <i class="fa-solid fa-palette"></i>
+                </button>
+                <div class="palette-options" id="palette-options">
+                    </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1 id="hero-name"></h1>
+                <h3 id="hero-title"></h3>
+                <p>Welcome to my digital space. I craft beautiful and functional web experiences.</p>
+                <a href="#contact" class="btn">Let's Connect <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="hero-socials" id="hero-socials"></div>
+        </section>
+
+        <section id="about" class="about">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-container">
+                <div class="about-image">
+                    <img id="about-picture" src="" alt="Profile Picture" loading="lazy">
+                </div>
+                <div class="about-text">
+                    <p id="about-bio"></p>
+                    <div id="about-facts" class="about-facts"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2 class="section-title">My Skills</h2>
+            <div id="skills-grid" class="skills-grid"></div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="section-title">My Projects</h2>
+            <div id="projects-grid" class="projects-grid"></div>
+        </section>
+
+        <section id="resume" class="resume">
+            <h2 class="section-title">Resume</h2>
+            <div id="resume-timeline" class="resume-timeline"></div>
+            <a id="download-cv" href="" target="_blank" download class="btn">Download CV <i class="fa-solid fa-download"></i></a>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2 class="section-title">Let's Collaborate</h2>
+            <form id="contact-form" class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <select name="request_type" required>
+                    <option value="">Collaboration Type</option>
+                    <option value="Portfolio">Portfolio Review</option>
+                    <option value="Open Source">Open Source</option>
+                    <option value="Freelance">Freelance Project</option>
+                    <option value="Other">Other</option>
+                </select>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn" id="contact-submit-btn">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                <div id="contact-status"></div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-socials" id="footer-socials"></div>
+        <p id="copyright"></p>
+    </footer>
+
+    <a href="#" id="scrollTopBtn" class="scroll-top-btn"><i class="fa-solid fa-arrow-up"></i></a>
+    
+    <script src="script.js"></script>
+</body>
+</html>
