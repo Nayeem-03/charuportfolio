@@ -187,7 +187,7 @@ class PathfindingVisualizer {
 
 // --- CONFIGURATION ---
 const config = {
-    name: "Charukesh G.R",
+    name: "Charukesh G.",
     title: "Full Stack Developer | Aspiring Cloud Engineer",
     socials: {
         github: "https://github.com/charuhere",
